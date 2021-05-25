@@ -42,7 +42,10 @@ If there is enough/any interest, I would consider adding a config file to contro
 
 All the Amiga C code was compiled use SAS/C.
 
-## How to compile and play
+## How to obtain
+Ready to play binary is available in the releases folder.  Make sure the .dat files are in the same folder as the main program.
+
+## How to compile
 Compilation is though Shell using SAS/C.
 
 You need to install the F2C includes and library as per the instructions here (https://aminet.net/dev/lang/f2c3.2bin.readme)
