@@ -1,0 +1,16 @@
+sc adscor.c adscor.o code=far data=far
+sc des.c des.o code=far data=far
+sc fread.c fread.o code=far data=far
+sc ggnome.c ggnome.o code=far data=far
+sc help.c help.o code=far data=far
+sc init.c init.o code=far data=far
+sc input.c input.o code=far data=far
+sc invent.c invent.o code=far data=far
+sc isig.c isig.o code=far data=far
+sc move.c move.o code=far data=far
+sc obj.c obj.o code=far data=far
+sc savres.c savres.o code=far data=far
+sc wwolf.c wwolf.o code=far data=far
+sc yorn.c yorn.o code=far data=far
+
+sc link opt main.c adscor.o des.o fread.o ggnome.o help.o init.o input.o invent.o isig.o move.o obj.o savres.o wwolf.o yorn.o lib:f2c.lib math=standard code=far data=far
