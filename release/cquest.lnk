@@ -1,0 +1,5 @@
+FROM LIB:c.o "main.o"+"adscor.o"+"des.o"+"fread.o"+"ggnome.o"+"help.o"+"init.o"+"input.o"+"invent.o"+"isig.o"+"move.o"+"obj.o"+"savres.o"+"wwolf.o"+"yorn.o"
+TO "main"
+LIB lib:f2c.lib LIB:scmnb.lib
+    LIB:scnb.lib LIB:amiga.lib
+
