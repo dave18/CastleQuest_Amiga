@@ -4,6 +4,7 @@
 */
 
 #include "f2c.h"
+#include <stdio.h>
 #include <devices/narrator.h>
 #include <proto/translator.h>
 
@@ -185,6 +186,7 @@ void printstring(outstring *a)
    }
     
     printf(scanbuf);
+    fflush(stdout);
 
     Translate(scanbuf,strlen(scanbuf)+1,speakbuf,T_BUFLEN);
 
