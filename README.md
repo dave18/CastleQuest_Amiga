@@ -30,7 +30,7 @@ on this repository or send him an email.)
 
 I used the excellent ForTran to C converter by Torsten Poulin (f2c) which is found on aminet under dev/lang.
 
-I had to tweak the .f file to separate the data from the declrations (f2c didn't like the combined syntax), but other than that it worked like a charm.
+I had to tweak the .f file to separate the data from the declarations (f2c didn't like the combined syntax), but other than that it worked like a charm.
 
 Once in C I had to rewite the .dat loaders as the converted code didn't work.  I also had to rewrite the SAVE and RESTORE routines, but it was basically just dumping 400 integers into a file and reloading them into the same variable space.
 
