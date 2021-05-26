@@ -34,7 +34,7 @@ I had to tweak the .f file to separate the data from the declarations (f2c didn'
 
 Once in C I had to rewite the .dat loaders as the converted code didn't work.  I also had to rewrite the SAVE and RESTORE routines, but it was basically just dumping 400 integers into a file and reloading them into the same variable space.
 
-Biggest job was redirecting all the text output from the original routines to a more C friendly printf routine, including parsing the ForTran format and making it compatible.  Once I had normal text strings, it was a relatively wast task to pass them via the Translator library to the narrator device to enable speech.
+Biggest job was redirecting all the text output from the original routines to a more C friendly printf routine, including parsing the ForTran format and making it compatible.  Once I had normal text strings, it was a relatively easy task to pass them via the Translator library to the narrator device to enable speech.
 
 I added two verbs to the game, MUTE and TALK.  As you'd expect, MUTE turns off the speech and TALK enables it.
 
