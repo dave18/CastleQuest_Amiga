@@ -44,6 +44,7 @@ All the Amiga C code was compiled use SAS/C.
 
 ## How to obtain
 Ready to play binary is available in the releases folder.  Make sure the .dat files are in the same folder as the main program.
+I've also added an ADF file to boot straight into the game - needs Kickstart 2 or higher to run.
 
 ## How to compile
 Compilation is though Shell using SAS/C.
